@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start web server services
+service httpd start
+service php-fpm start
+echo "Web server started successfully"
