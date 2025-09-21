@@ -1,0 +1,5 @@
+#!/bin/bash
+# Stop web server services
+service php-fpm stop
+service httpd stop
+echo "Web server stopped successfully"
